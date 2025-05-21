@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\LocalHoster]
+@="Host with Python Server"
+"Icon"="shell32.dll,3"
+
+[HKEY_CLASSES_ROOT\Directory\shell\LocalHoster\command]
+@="\"[PATH_TO_BAT_FILE]\\host_with_notification.bat\" \"%V\"" 

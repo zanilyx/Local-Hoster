@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Host with Python HTTP]
+@="Host with Python HTTP"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Host with Python HTTP\command]
+@="cmd.exe /c \"\"C:\\Users\\rites\\Documents\\Projects\\Local hoster\\host_with_notification.bat\" \"%1\"\""
